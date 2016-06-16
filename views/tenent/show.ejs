@@ -1,0 +1,7 @@
+<h1>tenent name= <%=model.name %></h1>
+
+<form action="/entities/new"><!--  method="get" -->
+	<input type="hidden" name="owner" value="<%= model.id %>"></input>
+
+	<input type="submit" value="Add entities"></input>
+</form>
